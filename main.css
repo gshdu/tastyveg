@@ -1,0 +1,79 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+}
+#top-banner{
+    background-color: #13214A;
+    padding: 15px 100px 0 150px;
+}
+#top-banner h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+.word-1{
+    color: #FA6867;
+}
+.word-2{
+    color: #47C757;
+}
+.half-width{
+    width: 50%;
+}
+.banner-text{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.half-width h3{
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+#top-banner-img{
+    width: 120%;
+    height: 100%;
+}
+.link-buttons{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+#order-now-button{
+    background: linear-gradient(88.33deg, #47C757 -7.64%, #3CB449 145.94%);
+    box-shadow: 0px 2px 30px rgb(145 252 73 / 50%);
+}
+.flexible-container-2{
+    display: flex;
+    background-color: #E5E5E5;
+    background-image: url(images/section-2-bg-img-2.jpg);
+    background-size: contain;
+    background-position: right;
+}
+#contact-chef{
+    width: 100%;
+    height: 100%;
+}
+#banner2-text h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+#banner2-text p{
+    font-size: 20px;
+    color: #13214A;
+    padding-right: 50px;
+}
+#contact-button{
+    background: linear-gradient(88.33deg, #FA6867 -7.64%, #CF383B 145.94%);
+    box-shadow: 0px 2px 30px rgb(255 73 73 / 50%);
+}
