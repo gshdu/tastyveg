@@ -60,7 +60,7 @@ body{
     background-position: right;
 }
 #contact-chef{
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 #banner2-text h1{
@@ -76,4 +76,112 @@ body{
 #contact-button{
     background: linear-gradient(88.33deg, #FA6867 -7.64%, #CF383B 145.94%);
     box-shadow: 0px 2px 30px rgb(255 73 73 / 50%);
+}
+#recipes{
+    background-color: #E5E5E5;
+    padding: 5px 200px 100px 200px;
+}
+#recipes-header h1{
+    color: #13214A;
+    font-size: 35px;
+    text-align: center;
+}
+#recipes-header p{
+    color: #13214A;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#recipe-cards{
+    display: flex;
+}
+.recipe-card{
+    height: 415px;
+    width: 33%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 15px;
+    margin: 0 3%;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+.recipe-card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.recipe-card h1{
+    color: #13214A;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+}
+.recipe-card p{
+    color: #13214A;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#card-button{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgb(252 143 73 / 50%);
+    border-radius: 100px;
+}
+#reviews{
+    background-color: #E5E5E5;
+    padding-top: 20px;
+}
+#review-cards{
+    margin: auto;
+    width: 85%;
+}
+.flexible-container-4{
+    display: flex;
+}
+#reviews-header h1{
+    text-align: center;
+    color: #13214A;
+    font-size: 35px;
+    font-style: normal;
+}
+.user-info{
+    display: flex;
+    display: inline-block;
+    padding: 0 0 10px 10px;
+}
+.user-info img{
+    width: 10%;
+    border-radius: 75%;
+    margin-bottom: -10px;
+}
+.user-container{
+    margin: -43px 0 0 65px;
+}
+.user-container h4{
+    color: white;
+    margin: 1px 0;
+}
+.user-container h5{
+    color: white;
+    margin: 0;
+}
+.review-card{
+    background-color: #13214A;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 20px;
+    padding: 1.7% 2.3%;
+    margin: 1.4% 1%;
+}
+.quotation-sign{
+    color: #47C757;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.customer-quote p{
+    color: #FA6867;
+    font-size: 15px;
+    font-style: oblique;
 }
