@@ -1,46 +1,56 @@
-body{
+body {
     font-family: 'Encode Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Otomanopee One', sans-serif;
     overflow-x: hidden;
     margin: 0;
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
 }
-#top-banner{
+
+#top-banner {
     background-color: #13214A;
     padding: 15px 100px 0 150px;
 }
-#top-banner h1{
+
+#top-banner h1 {
     font-family: 'Otomanopee One', sans-serif;
     font-size: 45px;
     color: white;
     font-weight: bold;
 }
-.word-1{
+
+.word-1 {
     color: #FA6867;
 }
-.word-2{
+
+.word-2 {
     color: #47C757;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.banner-text{
+
+.banner-text {
     margin-bottom: 50px;
     padding-top: 50px;
 }
-.half-width h3{
+
+.half-width h3 {
     font-family: 'Otomanopee One', sans-serif;
     color: white;
     font-size: 18px;
 }
-#top-banner-img{
+
+#top-banner-img {
     width: 120%;
     height: 100%;
 }
-.link-buttons{
+
+.link-buttons {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -48,75 +58,89 @@ body{
     border-radius: 100px;
     margin-top: 20px;
 }
-#order-now-button{
+
+#order-now-button {
     background: linear-gradient(88.33deg, #47C757 -7.64%, #3CB449 145.94%);
     box-shadow: 0px 2px 30px rgb(145 252 73 / 50%);
 }
-.flexible-container-2{
+
+.flexible-container-2 {
     display: flex;
     background-color: #E5E5E5;
     background-image: url(images/section-2-bg-img-2.jpg);
     background-size: contain;
     background-position: right;
 }
-#contact-chef{
+
+#contact-chef {
     width: 95%;
     height: 100%;
 }
-#banner2-text h1{
+
+#banner2-text h1 {
     font-family: 'Otomanopee One', sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
-#banner2-text p{
+
+#banner2-text p {
     font-size: 20px;
     color: #13214A;
     padding-right: 50px;
 }
-#contact-button{
+
+#contact-button {
     background: linear-gradient(88.33deg, #FA6867 -7.64%, #CF383B 145.94%);
     box-shadow: 0px 2px 30px rgb(255 73 73 / 50%);
 }
-#recipes{
+
+#recipes {
     background-color: #E5E5E5;
-    padding: 5px 200px 100px 200px;
+    padding: 5px 200px 50px 200px;
 }
-#recipes-header h1{
+
+#recipes-header h1 {
     color: #13214A;
     font-size: 35px;
     text-align: center;
 }
-#recipes-header p{
+
+#recipes-header p {
     color: #13214A;
     font-size: 20px;
     text-align: center;
     padding-bottom: 15px;
 }
-#recipe-cards{
+
+#recipe-cards {
     display: flex;
 }
-.recipe-card{
+
+.recipe-card {
     height: 415px;
     width: 33%;
     background-color: white;
     border-radius: 30px;
     padding: 15px 15px;
-    margin: 0 3%;
+    margin: 0 3% 7% 3%;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
 }
-.recipe-card img{
+
+.recipe-card img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 5px;
 }
-.recipe-card h1{
+
+.recipe-card h1 {
     color: #13214A;
     font-size: 18px;
     font-weight: 800;
     font-style: normal;
     text-align: left;
 }
-.recipe-card p{
+
+.recipe-card p {
     color: #13214A;
     font-size: 15px;
     font-weight: 800;
@@ -124,63 +148,77 @@ body{
     text-align: left;
     margin-bottom: 5px;
 }
-#card-button{
+
+#card-button {
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     box-shadow: 0px 2px 30px rgb(252 143 73 / 50%);
     border-radius: 100px;
 }
-#reviews{
+
+#reviews {
     background-color: #E5E5E5;
-    padding-top: 20px;
+    margin-top: -30px;
+    padding-top: 5px;
 }
-#review-cards{
+
+#review-cards {
     margin: auto;
     width: 85%;
 }
-.flexible-container-4{
+
+.flexible-container-4 {
     display: flex;
 }
-#reviews-header h1{
+
+#reviews-header h1 {
     text-align: center;
     color: #13214A;
     font-size: 35px;
     font-style: normal;
 }
-.user-info{
+
+.user-info {
     display: flex;
     display: inline-block;
     padding: 0 0 10px 10px;
 }
-.user-info img{
+
+.user-info img {
     width: 10%;
     border-radius: 75%;
     margin-bottom: -10px;
 }
-.user-container{
+
+.user-container {
     margin: -43px 0 0 65px;
 }
-.user-container h4{
+
+.user-container h4 {
     color: white;
     margin: 1px 0;
 }
-.user-container h5{
+
+.user-container h5 {
     color: white;
     margin: 0;
 }
-.review-card{
+
+.review-card {
     background-color: #13214A;
     box-shadow: 0px 0px 30px grey;
     border-radius: 20px;
     padding: 1.7% 2.3%;
     margin: 1.4% 1%;
 }
-.quotation-sign{
+
+.quotation-sign {
     color: #47C757;
     font-size: 35px;
     font-style: oblique;
     font-weight: bold;
 }
-.customer-quote p{
+
+.customer-quote p {
     color: #FA6867;
     font-size: 15px;
     font-style: oblique;
