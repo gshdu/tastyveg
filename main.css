@@ -227,7 +227,7 @@ body {
 #flexible-container-5 {
     background-color: #E5E5E5;
     margin-top: -20px;
-    padding-top: 50px;
+    padding: 70px 0 50px;
 }
 
 #expert-header h1 {
@@ -240,7 +240,7 @@ body {
     display: flex;
     margin: auto;
     margin-bottom: 20px;
-    width: 60%;
+    width: 65%;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 0px 30px grey;
@@ -255,12 +255,12 @@ body {
 }
 
 .expert-details-left {
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: left;
 }
 
 .expert-details-right {
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: right;
 }
 
@@ -270,6 +270,7 @@ body {
 
 .expert-details-right p {
     text-align: right;
+    color: #13214A;
 }
 
 .expert-details-left h4 {
@@ -282,6 +283,7 @@ body {
 
 .expert-details-left p {
     text-align: left;
+    color: #13214A;
 }
 
 .expert-img-left {
@@ -307,4 +309,56 @@ body {
 .linkedin-right {
     text-align: right;
     margin-right: -100px;
+}
+
+#flexible-container-6 {
+    background-color: #E5E5E5;
+    padding: 30px 0 60px;
+    margin-top: -30px;
+}
+
+#stat-bar {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px grey;
+    background-color: #13214A;
+}
+
+.stat-count {
+    width: 33%;
+    text-align: center;
+}
+
+.stat-count h1,
+p {
+    color: white;
+}
+
+#footer-area {
+    position: relative;
+    background-color: #13214A;
+    padding: 20px 0;
+}
+
+#footer-contents {
+    top: 50%;
+    left: 50%;
+}
+
+#footer-header p {
+    color: white;
+    font-size: 20px;
+}
+
+#footer-header h1,
+p {
+    text-align: center;
+}
+
+#footer-copyright p {
+    color: white;
+    text-align: center;
 }
